@@ -1,0 +1,9 @@
+// "//去配置一些ts的集纳差手段和检验规则"
+{
+  "compilerOptions":{
+    "skipLibCheck":true , //是否跳过node_modules目录的检查
+    "moduleResolution": "node" ,//导入一个包的时候，如果导入方式不是相对路径或者绝对路径的时候 就回去node_modules下面找
+    "module":"ESNext" ,
+    "lib":["ES2017","DOM"]
+  }
+}
